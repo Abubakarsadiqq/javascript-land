@@ -197,62 +197,94 @@ fruits.join();          // returns array as multiplication *
 shift();           // remove first element of an array
 unshift('abk');      // adds an element abk
 
+splice ()// adds new item to an array
+slice () // slices out a piece of an array
+/*
+examples
+*/  
+fruits.splice(2.0 , "kiwi" , "orange")
+
+
+
+sort()// this method sorts an array alphabetically
+reverse()// reverses to descending order
+
+//DATE METHODS
+
+//creating a date 
+const date = new Date ();
+document.getElementById('demo').innerHTML = d;
+
+//Converting dates to different strings
+d.toUTCstring(); // displays tue,15th february 2022 14:54:55 GMT
+d.toDate string();// displays Tue feb 15 2022
 
 
 
 
+//JS math methods
+
+//number to integer
+math.round(x);  // converts number to the nearest integer
+math.round(x);
+math.all(x);
+math.floor(x);
+
+//all the above method converts to the nerast integer
+
+
+//more examples of math methods
+
+math.floor(x); // returns the sign of the number(+, -)
+math.pow(x); // exponentiation
+math.sqrt(x);//returns the square root of X
+math.abs(x);//returns absolute positive
+math.cos(x);//returns cosine
+
+
+
+math.random() // creates random number
+math.log10() //returns the base 10 of  logarithm 
+math.e() // Exponetiation
 
 
 
 
+//CONDITIONS
+variableName = (condition)  ? value1 : value2 ;
 
 
 
+// TYPES OF DATA IN JAVASCRIPT
+
+/*
+Those that can containe value
+
+string 
+number
+boolean 
+object
+function
+
+Types of object
+date
+array
+string 
+number
+boolean
 
 
+*/
 
 
+// ARROW FUNCTION
 
+hello = () => {}
 
+// normal OLD function style 
+function =() { }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//JSON OBJECTS ARE WRITTEN IN ""
 
 
 
